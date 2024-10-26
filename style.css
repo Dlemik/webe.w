@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1c28;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 1rem;
+    background-color: #252b43;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #ff7f2a;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 15px;
+    color: #c5c6ce;
+}
+
+.san {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+}
+
+.san button {
+    padding: 0.75rem;
+    background-color: #353f58;
+    color: #c5c6ce;
+    border: none;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.san button:hover {
+    background-color: #ff7f2a;
+    color: white;
+}
+
+.submit {
+    padding: 1rem;
+    background-color: #ff7f2a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #ff9f50;
+}
